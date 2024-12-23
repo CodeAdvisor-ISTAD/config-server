@@ -11,7 +11,7 @@ services:
     #    environment:
     #      SPRING_PROFILES_ACTIVE: prod # Set Spring profile if needed
     volumes:
-      - logs:/app/logs # Optional: Map logs to a local directory
+      - config-server-logs:/app/logs # Optional: Map logs to a local directory
 
 volumes:
-  logs:
+  config-server-logs:
